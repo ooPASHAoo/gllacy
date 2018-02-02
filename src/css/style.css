@@ -30,6 +30,32 @@ body {
     .page__block-double:first-of-type {
       margin-right: 26px; }
 
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 12px 22px;
+  font: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  background-color: #e84d37;
+  background: linear-gradient(to top, #e74a35, #f26843);
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 2px 2px 0 rgba(172, 16, 0, 0.64); }
+  .btn:hover {
+    background: linear-gradient(to top, #ec6f5e, #f58669);
+    box-shadow: 0 1px 2px 0 #ac1000; }
+  .btn:active {
+    color: #fceeec;
+    background: linear-gradient(to top, #e1613e, #d74531);
+    box-shadow: 0 2px 2px 0 #942718 inset; }
+
 .main-header {
   position: relative;
   margin-top: 0;
@@ -145,7 +171,7 @@ body {
     margin: 0; }
 
 .promo__item {
-  padding: 20px;
+  padding: 22px 20px;
   background-repeat: no-repeat;
   background-size: cover; }
   .promo__item--raspberry {
