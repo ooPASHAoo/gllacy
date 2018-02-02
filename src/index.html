@@ -2,9 +2,143 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Gllacy shop</title>
 </head>
-<body>
-
+<body class="page">
+<header class="main-header page__block">
+    <a class="header__logo" href="#"><img src="img">Gllacy shop</a>
+    <nav class="header__nav main-nav">
+        <ul class="main-nav__list">
+            <li class="main-nav__item"><a class="main_nav__link" href="#">Каталог</a></li>
+            <li class="main-nav__item"><a class="main_nav__link" href="#">Доставка и оплата</a></li>
+            <li class="main-nav__item"><a class="main_nav__link" href="#">О Компании</a></li>
+        </ul>
+    </nav>
+    <ul class="header__user-block user-block">
+        <li class="user-block__item"><a class="user-block__link" href="#">Поиск</a></li>
+        <li class="user-block__item"><a class="user-block__link" href="#">Вход</a></li>
+        <li class="user-block__item"><a class="user-block__link" href="#">Пусто</a></li>
+    </ul>
+    <section class="header__contacts contacts">
+        <p class="contacts__time">С 10 до 20, ежедневно</p>
+        <p class="contacts__phone">8 812 450-25-25</p>
+    </section>
+</header>
+<section class="slider page__block">
+    <!-- TODO -->
+</section>
+<main class="main">
+    <section class="page__block promo">
+        <article class="page__block-round page__block-double promo__item">
+            <b class="promo__header">Малинка даром!</b>
+            <p class="promo__text">При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового
+                варенья бесплатно.</p>
+            <a class="btn promo__btn" href="#">Хочу варенье!</a>
+        </article>
+        <article class="page__block-round page__block-double promo__item">
+            <b class="promo__header">Шоколадки даром!</b>
+            <p class="promo__text">При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной
+                присыпки совершенно бесплатно.</p>
+            <a class="btn promo__btn" href="#">Хочу шоколадки!</a>
+        </article>
+    </section>
+    <section class="page__block products">
+        <article class="products__item product product--hit">
+            <img class="product__img" src="img">
+            <b class="product__price">310₽/кг</b>
+            <p class="product__description">Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
+        </article>
+        <article class="products__item product product--hit">
+            <img class="product__img" src="img">
+            <b class="product__price">380₽/кг</b>
+            <p class="product__description">Сливочно-кофейное с кусочками шоколада</p>
+        </article>
+        <article class="products__item product product--hit">
+            <img class="product__img" src="img">
+            <b class="product__price">355₽/кг</b>
+            <p class="product__description">Сливочно-клубничное с присыпкой из белого шоколада</p>
+        </article>
+        <article class="products__item product product--hit">
+            <img class="product__img" src="img">
+            <b class="product__price">415₽/кг</b>
+            <p class="product__description">Сливочное крем-брюле с карамельной подливкой</p>
+        </article>
+    </section>
+    <section class="page__block page__block-round features">
+        <b class="features__header">Магазин Глейси — это онлайн и офлайн магазин по продаже мороженого собственного
+            производства на развес</b>
+        <div class="features__layout-left">
+            <article class="features__item feature">
+                <p class="feature__text">Все наше мороженое изготавливается на собственном производстве, с
+                    использованием современного оборудования и проверенных временем технологий.</p>
+            </article>
+            <article class="features__item feature">
+                <p class="feature__text">Для приготовления мороженого используются настоящие сливки и молоко высочайшего
+                    качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого
+                    сырья</p>
+            </article>
+        </div>
+        <div class="features__layout-right">
+            <article class="features__item feature">
+                <p class="feature__text">Закупка ингредиентов производится только у проверенных фермерских хозяйств и
+                    компаний, с которыми нас связывает долговременное сотрудничество.</p>
+            </article>
+            <article class="features__item feature">
+                <p class="feature__text">Доставка нашего мороженого до заказчиков осуществляется в специальном
+                    термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</p>
+            </article>
+        </div>
+    </section>
+    <div class="page__block blog+subscribe">
+        <section class="page__block-round page__block-double blog">
+            <b class="blog__header">Новое в нашем блоге</b>
+            <p class="blog__article-header">10 способов сервировки фруктовых щербетов к столу</p>
+        </section>
+        <section class="page__block-round page__block-double subscribe">
+            <p class="subscribe__description">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого
+                вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
+            <form class="subscribe__form">
+                <input class="input subscribe__input" type="text" name="email" placeholder="Электронная почта">
+                <button class="btn subscribe__btn" type="submit">Отправить</button>
+            </form>
+        </section>
+    </div>
+</main>
+<section class="page__block page__block--wide map">
+    <section class="page__block-round feedback">
+        <p class="feedback__text">
+            Адрес главного офиса и офлайн магазина:
+            <b class="feedback__text-bold">ул. Большая Конюшенная 19/8, Санкт-Петербург</b>
+        </p>
+        <p class="feedback__text">
+            Для заказов по телефону:
+            <b class="feedback__text-bold">8 812 450-25-25</b>
+            (с 10 до 20 ежедневно)
+        </p>
+        <a class="btn feedback__btn" href="#">Форма обратной связи</a>
+    </section>
+</section>
+<footer class="main-footer">
+    <section class="main-footer__socials socials">
+        <a class="socials__btn socials__btn--twitter" href="#">Twitter</a>
+        <a class="socials__btn socials__btn--instagram" href="#">Instagram</a>
+        <a class="socials__btn socials__btn--facebook" href="#">Facebook</a>
+        <a class="socials__btn socials__btn--vkontakte" href="#">VKontakte</a>
+    </section>
+    <section class="main-footer__addition-info addition-info">
+        <div class="addition-info__layout-left">
+            <a class="addition-info__link addition-info__link--favorite" href="#">Для поставщиков</a>
+            <a class="addition-info__link" href="#">О производстве</a>
+        </div>
+        <div class="addition-info__layout-right">
+            <a class="addition-info__link" href="#">Наши документы</a>
+            <a class="addition-info__link" href="#">Экологические стандарты</a>
+        </div>
+    </section>
+    <section class="main-footer__copyright copyright">
+        <a class="copyright__logo-link"><img class="copyright__logo" src="img"></a>
+        <p class="copyright__text">Сделано в <a class="copyright__link">HTML Academy</a> © 2017</p>
+    </section>
+</footer>
 </body>
 </html>
