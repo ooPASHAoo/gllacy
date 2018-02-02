@@ -1,0 +1,47 @@
+.promo {
+  //position: relative;
+
+  &__item {
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &--raspberry {
+      background-image: url("../img/promo-raspberry.jpg");
+    }
+
+    &--chocolate {
+      background-image: url("../img/promo-chocolate.jpg");
+    }
+  }
+
+  &__header {
+    font-size: 35px;
+    line-height: 41px;
+    font-weight: bold;
+  }
+
+  &__text {
+    margin: 0;
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+  }
+
+  &__btn {
+    //position: relative;
+    //left: ;
+    //margin-left: auto;
+    //margin-right: 0;
+    //position: absolute;
+    //right: 0;
+    float: right;
+    //clear: both;
+
+    //display: inline-block;
+    //background-color: greenyellow;
+
+    margin-top: 46px;
+  }
+}

@@ -6,6 +6,7 @@
   background-color: #849d8f;
 
   &__block {
+    box-sizing: border-box;
     width: $page-width;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.2); // DEV
@@ -24,12 +25,13 @@
   }
 
   &__block-round {
-    border-radius: 10px;
+    border-radius: 15px;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.2); // DEV
   }
 
   &__block-double {
+    box-sizing: border-box;
     float: left;
     width: ($page-width - 26px) / 2;
     //min-height: 100%;
