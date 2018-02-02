@@ -1,0 +1,33 @@
+.page {
+  color: white;
+  font: $font__size/$font__lh "Roboto", "Arial", sans-serif;
+  background-color: #849d8f;
+
+  &__block {
+    width: $page-width;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.2); // DEV
+    overflow: hidden;
+    margin-top: 40px;
+
+    &--wide {
+      width: auto;
+    }
+  }
+
+  &__block-round {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.2); // DEV
+  }
+
+  &__block-double {
+    float: left;
+    width: ($page-width - 26px) / 2;
+    //min-height: 100%;
+
+    &:first-of-type {
+      margin-right: 26px;
+    }
+  }
+}

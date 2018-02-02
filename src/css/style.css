@@ -1,2 +1,24 @@
 body {
   margin: 0; }
+
+.page {
+  color: white;
+  font: 0.72727 "Roboto", "Arial", sans-serif;
+  background-color: #849d8f; }
+  .page__block {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-top: 40px; }
+    .page__block--wide {
+      width: auto; }
+  .page__block-round {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.2); }
+  .page__block-double {
+    float: left;
+    width: 587px; }
+    .page__block-double:first-of-type {
+      margin-right: 26px; }
