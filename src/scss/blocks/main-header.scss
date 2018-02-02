@@ -1,0 +1,32 @@
+.main-header {
+  position: relative;
+  margin-top: 0;
+
+  &__logo {
+    float: left;
+    max-width: 154px;
+    background-color: greenyellow; // DEV
+  }
+
+  &__nav {
+    float: left;
+    max-width: 606px;
+    background-color: cornflowerblue; // DEV
+  }
+
+  &__user-block {
+    float: right;
+    max-width: 400px;
+    background-color: blanchedalmond; // DEV
+  }
+
+  &__contacts {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    //float: right;
+    //clear: both;
+    //max-width: 300px;
+    background-color: aquamarine; // DEV
+  }
+}

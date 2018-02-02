@@ -9,8 +9,11 @@ body {
     width: 1200px;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.2);
-    overflow: hidden;
     margin-top: 40px; }
+    .page__block:after {
+      content: "";
+      display: table;
+      clear: both; }
     .page__block--wide {
       width: auto; }
   .page__block-round {
@@ -22,3 +25,24 @@ body {
     width: 587px; }
     .page__block-double:first-of-type {
       margin-right: 26px; }
+
+.main-header {
+  position: relative;
+  margin-top: 0; }
+  .main-header__logo {
+    float: left;
+    max-width: 154px;
+    background-color: greenyellow; }
+  .main-header__nav {
+    float: left;
+    max-width: 606px;
+    background-color: cornflowerblue; }
+  .main-header__user-block {
+    float: right;
+    max-width: 400px;
+    background-color: blanchedalmond; }
+  .main-header__contacts {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: aquamarine; }

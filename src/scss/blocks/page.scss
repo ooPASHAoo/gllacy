@@ -7,8 +7,14 @@
     width: $page-width;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.2); // DEV
-    overflow: hidden;
+    //overflow: hidden;
     margin-top: 40px;
+
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
 
     &--wide {
       width: auto;
