@@ -1,6 +1,8 @@
 .page {
-  color: white;
-  font: $font__size/$font__lh "Roboto", "Arial", sans-serif;
+  color: $font__color;
+  font-size: $font__size;
+  line-height: $font__lh;
+  font-family: "Roboto", "Arial", sans-serif;
   background-color: #849d8f;
 
   &__block {
