@@ -21,7 +21,6 @@ body {
       width: auto; }
   .page__block-round {
     border-radius: 15px;
-    overflow: hidden;
     background-color: rgba(0, 0, 0, 0.2); }
   .page__block-double {
     box-sizing: border-box;
@@ -221,3 +220,48 @@ body {
     text-align: center; }
   .product__description-underline {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+
+.features {
+  padding: 28px 20px;
+  background: #ece0c5 url("../img/wafer-pattern.jpg");
+  color: #333333; }
+  .features__header {
+    font-size: 24px;
+    line-height: 30px; }
+    .features__header:after {
+      content: "";
+      display: table;
+      clear: both; }
+  .features__layout-left {
+    float: left;
+    width: 540px; }
+  .features__layout-right {
+    float: right;
+    width: 540px; }
+  .features__item {
+    margin-top: 20px; }
+
+.feature {
+  position: relative; }
+  .feature:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    background-repeat: no-repeat; }
+  .feature--icecream::before {
+    background-image: url("../img/icon-icecream.png"); }
+  .feature--leaf::before {
+    background-image: url("../img/icon-leaf.png"); }
+  .feature--cow::before {
+    background-image: url("../img/icon-cow.png"); }
+  .feature--thermometer::before {
+    background-image: url("../img/icon-thermometr.png"); }
+  .feature__text {
+    margin: 0;
+    padding-left: 56px;
+    padding-top: 16px; }

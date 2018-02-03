@@ -1,0 +1,47 @@
+.features {
+  padding: 28px 20px;
+  background: #ece0c5 url("../img/wafer-pattern.jpg");
+  color: #333333;
+
+  //&:after {
+  //  content: "";
+  //  display: table;
+  //  clear: both;
+  //}
+
+  &__header {
+    font-size: 24px;
+    line-height: 30px;
+
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+
+  &__layout-left {
+    float: left;
+    width: 540px;
+    //background-color: goldenrod;
+  }
+
+  &__layout-right {
+    float: right;
+    width: 540px;
+    //background-color: salmon;
+  }
+
+  &__item {
+    margin-top: 20px;
+  }
+}
+
+//<section class="page__block page__block-round features">
+//<b class="features__header">Магазин Глейси — это онлайн и офлайн магазин по продаже мороженого собственного
+//                           производства на развес</b>
+//<div class="features__layout-left">
+//<article class="features__item feature">
+//<p class="feature__text">Все наше мороженое изготавливается на собственном производстве, с
+//использованием современного оборудования и проверенных временем технологий.</p>
+//</article>

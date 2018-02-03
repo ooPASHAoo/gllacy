@@ -1,0 +1,49 @@
+.feature {
+  position: relative;
+
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+  }
+
+  &--icecream::before {
+    background-image:url("../img/icon-icecream.png");
+  }
+
+  &--leaf::before {
+    background-image:url("../img/icon-leaf.png");
+  }
+
+  &--cow::before {
+    background-image:url("../img/icon-cow.png");
+  }
+
+  &--thermometer::before {
+    background-image:url("../img/icon-thermometr.png");
+  }
+
+  &__text {
+    margin: 0;
+
+    padding-left: 56px;
+    padding-top: 16px;
+  }
+
+  //&__
+}
+
+//<section class="page__block page__block-round features">
+//<b class="features__header">Магазин Глейси — это онлайн и офлайн магазин по продаже мороженого собственного
+//                           производства на развес</b>
+//<div class="features__layout-left">
+//<article class="features__item feature">
+//<p class="feature__text">Все наше мороженое изготавливается на собственном производстве, с
+//использованием современного оборудования и проверенных временем технологий.</p>
+//</article>
