@@ -5,7 +5,11 @@
     display: inline-block;
     vertical-align: top;
     font-size: $font__size;
+    width: 267px;
+    &:not(:last-of-type) {
+      margin-right: 26px;
+    }
 
-    background-color: greenyellow;
+    //background-color: greenyellow;
   }
 }

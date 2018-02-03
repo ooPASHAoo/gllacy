@@ -201,4 +201,23 @@ body {
     display: inline-block;
     vertical-align: top;
     font-size: 16px;
-    background-color: greenyellow; }
+    width: 267px; }
+    .products__item:not(:last-of-type) {
+      margin-right: 26px; }
+
+.product {
+  position: relative; }
+  .product__hit {
+    position: absolute; }
+  .product__img {
+    display: block; }
+  .product__price {
+    display: block;
+    font-size: 45px;
+    line-height: 45px;
+    margin-top: -54px; }
+  .product__description {
+    margin-top: 30px;
+    text-align: center; }
+  .product__description-underline {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
