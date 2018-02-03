@@ -194,3 +194,11 @@ body {
 .promo__btn {
   float: right;
   margin-top: 46px; }
+
+.products {
+  font-size: 0; }
+  .products__item {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    background-color: greenyellow; }

@@ -1,0 +1,11 @@
+.products {
+  font-size: 0;
+
+  &__item {
+    display: inline-block;
+    vertical-align: top;
+    font-size: $font__size;
+
+    background-color: greenyellow;
+  }
+}
