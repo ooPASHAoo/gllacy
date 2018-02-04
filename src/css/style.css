@@ -265,3 +265,18 @@ body {
     margin: 0;
     padding-left: 56px;
     padding-top: 16px; }
+
+.blog {
+  min-height: 220px;
+  padding: 26px 256px 20px 20px;
+  background: white url("../img/bg-strawberry.jpg") no-repeat;
+  color: #333333; }
+  .blog__header {
+    font-weight: normal; }
+  .blog__article-header {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    color: black; }
+  .blog__article-header-underline {
+    border-bottom: 2px solid #333333; }
