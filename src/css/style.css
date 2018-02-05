@@ -346,3 +346,20 @@ body {
   .feedback__btn {
     margin-top: 10px;
     width: 100%; }
+
+.main-footer {
+  margin-top: 0;
+  background-color: goldenrod; }
+  .main-footer__socials {
+    float: left;
+    width: 267px;
+    margin-right: 26px;
+    background-color: greenyellow; }
+  .main-footer__addition-info {
+    float: left;
+    width: 560px;
+    background-color: fuchsia; }
+  .main-footer__copyright {
+    float: right;
+    max-width: 267px;
+    background-color: darkcyan; }

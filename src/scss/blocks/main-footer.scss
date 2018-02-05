@@ -1,0 +1,23 @@
+.main-footer {
+  margin-top: 0;
+  background-color: goldenrod;
+
+  &__socials {
+    float: left;
+    width: 267px;
+    margin-right: 26px;
+    background-color: greenyellow;
+  }
+
+  &__addition-info {
+    float: left;
+    width: 560px;
+    background-color: fuchsia;
+  }
+
+  &__copyright {
+    float: right;
+    max-width: 267px;
+    background-color: darkcyan;
+  }
+}
