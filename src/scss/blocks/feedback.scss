@@ -1,0 +1,54 @@
+.feedback {
+  //opacity: 0;
+  margin-top: 0;
+  position: relative;
+
+  &__inner {
+    position: absolute;
+    right: 0;
+    top: 62px;
+    //bottom: 62px;
+    //margin-top: auto;
+    //margin-bottom: auto;
+
+    background-color: white;
+    color: #333333;
+    box-sizing: border-box;
+    width: 302px;
+    padding: 32px 24px;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 20px;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+
+  &__text-bold {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  &__btn {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+//<div class="page__block feedback">
+//<section class="page__block-round feedback__inner">
+//<p class="feedback__text">
+//                         Адрес главного офиса и офлайн магазина:
+//<b class="feedback__text-bold">ул. Большая Конюшенная 19/8, Санкт-Петербург</b>
+//</p>
+//<p class="feedback__text">
+//                         Для заказов по телефону:
+//<b class="feedback__text-bold">8 812 450-25-25</b>
+//(с 10 до 20 ежедневно)
+//</p>
+//<a class="btn feedback__btn" href="#">Форма обратной связи</a>
+//</section>
+//</div>
