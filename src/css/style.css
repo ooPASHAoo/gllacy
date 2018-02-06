@@ -7,6 +7,16 @@ body {
   line-height: 22px;
   font-family: "Roboto", "Arial", sans-serif;
   background-color: #849d8f; }
+  .page::before {
+    display: block;
+    z-index: 99999;
+    content: "";
+    position: absolute;
+    background-color: red;
+    width: 2px;
+    height: 3000px;
+    left: 50%;
+    margin-left: -1px; }
   .page__block {
     box-sizing: border-box;
     width: 1200px;
@@ -389,3 +399,40 @@ body {
       background-image: url("../img/icon-facebook.png"); }
     .socials__btn--vkontakte {
       background-image: url("../img/icon-vkontakte.png"); }
+
+.addition-info {
+  font-size: 0;
+  text-align: center; }
+  .addition-info * {
+    font-size: 16px; }
+  .addition-info__group-links {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    background-color: darkorchid; }
+    .addition-info__group-links:not(:last-of-type) {
+      margin-right: 10px; }
+  .addition-info__link {
+    display: block;
+    padding-left: 22px;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: normal;
+    color: white; }
+    .addition-info__link:not(:first-of-type) {
+      margin-top: 8px; }
+    .addition-info__link--favorite {
+      position: relative;
+      font-weight: bold; }
+      .addition-info__link--favorite::before {
+        position: absolute;
+        top: 2px;
+        left: 0;
+        display: block;
+        content: "";
+        width: 15px;
+        height: 13px;
+        background: transparent url("../img/icon-heart.png") no-repeat; }
+  .addition-info__link-underline {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
