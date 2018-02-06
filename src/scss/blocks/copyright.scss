@@ -1,0 +1,30 @@
+.copyright {
+  background-color: royalblue;
+
+  &__logo-link {
+
+  }
+
+  &__logo {
+
+  }
+
+  &__text {
+    font-size: 12px;
+    line-height: 16px; // 18px
+    margin-top: 0;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__underline {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+}
+
+//<section class="main-footer__copyright copyright">
+//<a class="copyright__logo-link"><img class="copyright__logo" src="img/logo-htmlacademy.png"></a>
+//<p class="copyright__text">Сделано в <a class="copyright__link">HTML Academy</a> © 2017</p>
+//</section>

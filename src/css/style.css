@@ -436,3 +436,14 @@ body {
         background: transparent url("../img/icon-heart.png") no-repeat; }
   .addition-info__link-underline {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+
+.copyright {
+  background-color: royalblue; }
+  .copyright__text {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 0; }
+  .copyright__link {
+    text-decoration: none; }
+  .copyright__underline {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
