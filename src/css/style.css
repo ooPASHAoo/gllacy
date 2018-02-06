@@ -56,7 +56,7 @@ body {
 
 .main-header {
   position: relative;
-  margin-top: 0;
+  margin-top: 8px;
   font-size: 0; }
   .main-header__logo {
     display: inline-block;
@@ -114,6 +114,9 @@ body {
     background-color: #e84d37;
     color: white;
     border-radius: 16px; }
+
+.main-nav__link-underline {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
 
 .user-block {
   margin: 0;
@@ -342,7 +345,8 @@ body {
     width: 100%; }
 
 .main-footer {
-  margin-top: 0; }
+  margin-top: 0;
+  margin-bottom: 24px; }
   .main-footer__socials {
     float: left;
     width: 267px;

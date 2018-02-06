@@ -46,4 +46,8 @@
       border-radius: 16px;  // (18+7*2)/2=16
     }
   }
+
+  &__link-underline {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
 }
